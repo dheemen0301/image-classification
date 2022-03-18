@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 (X_train, y_train), (X_test,y_test) = datasets.cifar10.load_data()
 X_train.shape
+X_test.shape
 y_train.shape
 y_train[:5]
 y_train = y_train.reshape(-1,)
